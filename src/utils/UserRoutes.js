@@ -1,0 +1,11 @@
+export const HOST = import.meta.env.DEV ? "http://localhost:3000" : import.meta.env.VITE_SERVER;
+export const sendSong = `${HOST}/user/send`;
+export const getDummyIsrael = `${HOST}/user/dummy/israel`;
+export const getDummyOverall = `${HOST}/user/dummy/overall`;
+export const searchSong = `${HOST}/user/search`;
+export const newUser = `${HOST}/user/new-user`
+export const getRequested = `${HOST}/establishment/requested`;
+export const getAccepted = `${HOST}/establishment/accepted`;
+export const acceptSong = `${HOST}/establishment/accept`;
+export const removeRequest = `${HOST}/establishment/removeRequest`;
+export const removeAccept = `${HOST}/establishment/removeAccept`;

@@ -1,0 +1,93 @@
+#admin-container {
+    display: flex;
+}
+
+#requests-container {
+    width: 50%;
+}
+
+#playlist-container {
+    width: 50%;
+    padding-top: 24px;
+}
+
+#requests-control-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.admin-headers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+    height: 80px;
+}
+
+#requests-map-container {
+    padding: 5%;
+}
+
+#accepts-map-container {
+    padding: 5%;
+}
+
+#accepts-map-container > :first-child {
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    color: white;
+  }
+
+#player-container {
+    margin-right: 5vw;
+    height: 55vh;
+}
+
+.requests-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    padding: 16px;
+    border-radius: 4px;
+    transition: .2s;
+}
+
+.requests-controls:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.tooltip {
+    position: absolute;
+    width: 160px;
+    height: 44px;
+    font-size: 10px;
+    background-color: rgba(101, 101, 101);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 90px;
+}
+
+#req-tooltip {
+    margin-right: 240px;
+}
+
+#acc-tooltip {
+    margin-left: 240px;
+}
+
+#playlists-button-container {
+    height: 15vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+}

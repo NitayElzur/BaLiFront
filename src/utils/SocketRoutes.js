@@ -1,0 +1,1 @@
+export const HOSTio = import.meta.env.DEV ? 'http://localhost:3000' : process.env.VITE_SOCKET

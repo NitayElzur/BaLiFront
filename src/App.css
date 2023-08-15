@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    
+}
+
+a {
+    all: unset
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+button {
+    all: unset;
+}
+
+#app-container {
+    background-color: var(--main);
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Rubik', sans-serif;
+    --main: black;
+    --sub: rgb(255, 255, 255);
+    --white: rgba(255, 255, 255, 0.8);
+}

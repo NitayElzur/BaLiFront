@@ -1,0 +1,34 @@
+#suggestion-img-container {
+    width: 100px;
+}
+
+#suggestion-box-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 75px;
+}
+
+#suggestion-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    flex-grow: 1;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#suggestion-small-row-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: x-small;
+}
+
+#suggestion-video-name {
+    width: 100%;
+    text-align: start;
+}
